@@ -587,9 +587,29 @@ html[lang="th"] .cast_box .nick_wrap > span.ico_fan {background-position:-147px 
 }
 
 div.ranking .cast_box {
-    max-width: 192px;
+    max-width: 172px;
 } 
 
+div.ranking .cast_box,
+div.ranking .cast_box .box_link {
+	height: 138px;
+}
+
 div.ranking .cast_box .subject {
-	height: 70px;
+    height: 40px;
+    top: 94px;
+    width: 100%;
+}
+
+div.ranking .cast_box .grbox,
+div.ranking .cast_box .thumb img {
+    height: 100px;
+}
+
+div.ranking .cast_box .nick_ {
+	color: #888;
+}
+
+div.notice .card {
+    height: 138px;
 }

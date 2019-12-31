@@ -48,4 +48,7 @@ jQuery('document').ready(function(){
 		autoplaySpeed: 2000,
 	});
 
+	var notice_text = jQuery('.notice .card ul li a');
+	notice_text.text(notice_text.text().substring(0,25) + ' ...')
+
 });
