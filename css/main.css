@@ -44,40 +44,79 @@ i.icon {
 }
 
 i.icon.star {
-    background-position: 0px -42px;
+    background-position: 0px -40px;
+}
+i.icon.star:hover {
+    background-position: 0px -80px;
 }
 
 i.icon.tv {
     background-position: -40px -40px;
 }
+i.icon.tv:hover {
+    background-position: -40px -80px;
+}
+
 i.icon.gift {
     background-position: -80px -40px;
 }
+i.icon.gift:hover {
+    background-position: -80px -80px;
+}
+
 i.icon.rank {
 	background-position: -120px -40px;
 }
+i.icon.rank:hover {
+	background-position: -120px -80px;
+}
+
 i.icon.all {
 	background-position: -160px -40px;
 }
+i.icon.all:hover {
+	background-position: -160px -80px;
+}
+
 i.icon.smile {
     background-position: -200px -40px;
 }
+i.icon.smile:hover {
+    background-position: -200px -80px;
+}
+
 i.icon.music {
     background-position: -280px -40px;
 }
+i.icon.music:hover {
+    background-position: -280px -80px;
+}
+
 i.icon.game {
     background-position: -320px -40px;
 }
+i.icon.game:hover {
+    background-position: -320px -80px;
+}
+
 i.icon.other {
     background-position: -360px -40px;
 }
+i.icon.other:hover {
+    background-position: -360px -80px;
+}
+
 i.icon.sports {
     background-position: -400px -40px;
+}
+i.icon.sports:hover {
+    background-position: -400px -80px;
 }
 
 /*New site*/
 body {
 	font-family: "Nunito Sans", Sans-serif;
+	background: #f5f5f5;
 }
 
 a:hover {
