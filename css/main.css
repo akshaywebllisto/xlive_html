@@ -133,6 +133,7 @@ h1,h2,h3,h4,h5,h6 {
 
 header {
 	background: rgb(5,23,51);
+	border:none;
 }
 
 header .navbar-brand {
@@ -629,4 +630,24 @@ div.menu_box li a {
 	color: #555;
 	margin-bottom: 6px;
 	display: block;
+}
+
+
+/*Inner Page*/
+header.inner .navbar-brand {
+    width: 150px;
+    margin: 8px 0;
+    line-height: 0;
+}
+
+header.inner form.search_form {
+    margin: 10px 0;
+}
+
+section.player_section {
+    margin-top: 56px;
+}
+
+.chat_wr form button {
+    height: 50px;
 }
