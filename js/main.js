@@ -49,6 +49,11 @@ jQuery('document').ready(function(){
 	});
 
 	var notice_text = jQuery('.notice .card ul li a');
-	notice_text.text(notice_text.text().substring(0,25) + ' ...')
+	notice_text.text(notice_text.text().substring(0,25) + ' ...');
+
+	jQuery('.mega_menu').on('click', function(){
+		jQuery('.menu_box').toggleClass('show');
+	});
+
 
 });

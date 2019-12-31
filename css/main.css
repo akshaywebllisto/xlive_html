@@ -340,7 +340,7 @@ footer.border {
 
 .main_container {
     padding-left: 208px;
-    height: 1000px;
+    /*height: 1000px;*/
     padding-top: 113px;
     display: block;
     width: 100%;
@@ -612,4 +612,21 @@ div.ranking .cast_box .nick_ {
 
 div.notice .card {
     height: 138px;
+}
+
+
+div.menu_box {
+    padding: 13px;
+    right: 0;
+    display: none;
+}
+
+div.menu_box.show {
+	display: block;
+}
+
+div.menu_box li a {
+	color: #555;
+	margin-bottom: 6px;
+	display: block;
 }
