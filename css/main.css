@@ -585,3 +585,11 @@ html[lang="th"] .cast_box .nick_wrap > span.ico_fan {background-position:-147px 
 .slick-prev {
     right: 32px !important;
 }
+
+div.ranking .cast_box {
+    max-width: 192px;
+} 
+
+div.ranking .cast_box .subject {
+	height: 70px;
+}
