@@ -648,6 +648,85 @@ section.player_section {
     margin-top: 56px;
 }
 
+section.player_section .fp2 {
+    padding-left: 130px;
+}
+
+section.player_section .card-footer .thumb_profile {
+    left: 24px;
+}
+
 .chat_wr form button {
     height: 50px;
+}
+
+.thumb_profile {
+	position: relative;
+    width: 86px;
+    height: 86px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.thumb_profile img{
+    position: absolute;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    height: 86px;
+    left: -100%;
+    top: -100%;
+    right: -100%;
+    bottom: -100%;
+}
+
+.vid_optn {
+    background: rgba(0,0,0,.03);
+    padding: 6px 15px;
+}
+
+.vid_optn ul li {
+    padding: 0px;
+    background: transparent;
+    border: none;
+    float: right;
+}
+
+.vid_optn span#muteLayer {
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.vid_optn i.icon {
+    background-image: url(../images/chat_web_ico.png);
+    background-position: 0px -200px !important;
+}
+
+.vid_optn ul li a {
+	color: #555555;
+}
+
+
+.vid_optn i.icon.hand_up {
+    background-position: 3px -243px !important;
+}
+
+.vid_optn i.icon.star {
+    background-position: 2px -283px !important;
+}
+
+.vid_optn i.icon.heart_gift {
+    background-position: 3px -323px !important;
+}
+
+.vid_optn i.icon.screen {
+    background-position: 2px -362px !important;
+}
+
+.custom_vid {
+	width: 100%;
+} 
+
+.player_wr .card-body {
+	height: 444px;
 }
