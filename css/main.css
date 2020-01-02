@@ -660,6 +660,11 @@ section.player_section .card-footer .thumb_profile {
     height: 50px;
 }
 
+.broadcast_list .card-body,
+.chat_wr .card-body {
+    height: 496px;
+}
+
 .thumb_profile {
 	position: relative;
     width: 86px;
@@ -728,5 +733,83 @@ section.player_section .card-footer .thumb_profile {
 } 
 
 .player_wr .card-body {
-	height: 444px;
+	height: 373px;
+}
+
+.live-list {
+    height: 581px !important;
+    overflow-y: scroll;
+}
+
+.live-list .card {
+    padding-left: 100px;
+    padding: 10px;
+}
+
+.live-list ul li {
+    list-style: none;
+}
+
+.live-list .card a ,.live-list .card {
+    color: #6c757d;
+}
+
+.live-list .card p {
+    font-weight: normal;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.live-list .card h3 {
+    margin: 0;
+}
+
+.live-list .card img {
+    position: absolute;
+    left: 10px;
+    width: 88px;
+    top: 10px;
+}
+
+.live-list .card {
+    padding-left: 110px;
+    height: 70px;
+    border: none;
+    border-bottom: 1px solid #eee;
+    border-radius: 0;
+}
+
+.header_login i.icon {
+    background-image: url(../images/chat_web_ico.png);
+    background-position: 0px 0px !important;
+}
+
+.header_login i.icon.chat {
+    background-position: 0px 0px !important;
+}
+
+.header_login i.icon.list {
+    background-position: -81px 0px !important;
+}
+
+.header_login i.icon.user {
+    background-position: -206px 0 !important;
+}
+
+.header_login {
+    padding: 8px;
+    margin-right: 15px;
+}
+
+.header_login a {
+	color:#ffffff;
+}
+
+.header_login li {
+    padding: 0 10px;
+    border-left: 1px solid #555;
+}
+
+.header_login ul li:nth-child(1) {
+	border:none !important;
 }
